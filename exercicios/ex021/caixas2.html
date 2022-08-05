@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grouping Tags</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font: normal 16pt Arial, sans-serif;
+                background-color: rgb(183, 249, 249);
+            }
+            header{
+                background-color: rgb(0, 149, 149);
+                padding: 15px;
+                margin-bottom: 40px;
+            }
+            header > h1, h2 {
+                padding: 10px;
+            }
+            header > h2{
+                font-size: 1.5em;
+                margin-bottom: 10px;
+            }
+            nav{
+                margin-left: 40pt;
+            }
+            nav > a{
+                background-color: rgb(1, 113, 113);
+                color: white;
+                box-shadow: 2px 2px 8px rgba(0, 65, 65, 0.261);
+                text-decoration: none;
+                border-radius: 5px;
+                padding: 5px;
+                margin-right: 25px;
+            }
+            nav > a:hover{
+                box-shadow: inset 2px 2px 5px rgba(0, 65, 65, 0.386);
+                text-decoration: underline;
+            }
+            main{
+                background-color: rgba(255, 255, 255, 0.637);
+                padding: 20px;
+            }
+            article > h1{
+                font-size: 1.5em ;
+                margin: 10px;
+            }
+            aside > p{
+                font: bold 1.3em 'Times New Roman', Times, serif;
+                margin: 10px;
+                text-align: center;
+            }
+            p{
+                text-indent: 30px;
+                text-align: justify;
+            }
+            footer{
+                background-color: rgba(1, 82, 82, 0.479);;
+                color: rgb(94, 94, 94);
+                padding: 10px;
+                margin: 20px;
+            }
+            footer > p{
+                font-family: cursive;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Titulo</h1>
+            <h2>Subtitulo</h2>
+            <nav>
+                <a href="#">LINK</a>
+                <a href="#">LINK</a>
+                <a href="#">LINK</a>
+                <a href="#">LINK</a>
+                <a href="#">LINK</a>
+            </nav>
+        </header>
+        <main>
+            <section id="Importante">
+                <article>
+                    <h1>Importante</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis repudiandae corporis saepe voluptatum perferendis provident aperiam. Laborum, quidem. Architecto quidem eaque nostrum quam alias cupiditate expedita id voluptatum cumque!</p>
+                    <aside>
+                        <p>***Platão***</p>
+                    </aside>
+                </article>
+            </section>
+            <section id="Noticias">
+                <article>
+                    <h1>Noticias</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fugiat necessitatibus hic perferendis fuga sapiente soluta dolores facilis nisi et sint sed, expedita tempora exercitationem ex numquam quidem omnis veritatis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, accusamus. Eos voluptate dolore corrupti aliquam suscipit inventore voluptatum magnam, omnis quisquam amet corporis ex vero natus sapiente quo earum impedit.
+                    </p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Desenvolvido Por <a href="https://github.com/juniin1233" target="_blank">Junior Dias</a></p>
+        </footer>
+    </body>
+</html>

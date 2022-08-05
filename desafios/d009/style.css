@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+    background-color: rgba(81, 81, 81, 0.783);
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 30pt ;
+}
+img{
+    padding: 10px;
+}
+a{
+    font-size: 20pt;}
