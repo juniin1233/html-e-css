@@ -68,6 +68,18 @@ section.normal{
 section.imagem{
     background-color: gray;
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.638);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img01{
+    background-image: url('imagens/background001.jpg');
+}
+
+section#img02{
+    background-image: url('imagens/background002.jpg');
 }
 
 section.imagem > p{
