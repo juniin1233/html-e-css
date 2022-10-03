@@ -13,5 +13,19 @@
 </head>
 <body>
     <h1>Meu primeiro Formulario:</h1>
+    <form action="cadastro.js" method="get">
+        <p>
+            <label for="iuso">Usuario: </label>
+            <input type="text" name="uso" id="iuso" required minlength="5" maxlength="15">
+        </p>
+        <p>
+            <label for="isen">Senha: </label>
+            <input type="password" name="sen" id="isen" minlength="8">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+    </form>
 </body>
 </html>
