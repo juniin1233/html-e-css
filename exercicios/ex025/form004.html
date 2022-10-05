@@ -9,9 +9,43 @@
         *{
             font-family: Arial, Helvetica, sans-serif;
         }
+        div{
+            margin: 10vh;
+        }
     </style>
 </head>
 <body>
     <h1>Formulário: </h1>
+    <form action="teste.js" method="get">
+        <div>
+            <label for="iest">Estados: </label>
+            <select name="est" id="iest">
+                <option value="" selected>-----ESCOLHA-----</option>
+                <optgroup label="Região Sul">
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="PR">Parana</option>
+                </optgroup>
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="ilist">
+            <datalist id="ilist">
+                <option>Cozinheiro</option>
+                <option>Desenvolvedor</option>
+                <option>Motorista</option>
+            </datalist>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">
+        </div>
+    </form>
 </body>
 </html>
