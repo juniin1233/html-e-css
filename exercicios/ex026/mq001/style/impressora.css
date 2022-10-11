@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/*Estilo para impressora*/
+
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+nav{
+    display: none;
+}
+
+main{
+    width: 100vw;
+    line-height: 2em;
+    text-align: justify;
+}
+
+main::after{
+    content: 'Modo de impressão feito por @junior_d1as';
+}
