@@ -21,17 +21,17 @@
                 <form action="login.js" method="post" autocomplete="on">
                     <div class="campo">
                         <span class="material-symbols-outlined">person</span>
-                        <input type="email" name="login" id="ilogin" autocomplete="email" required maxlength="35">
+                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="35">
                         <label for="login">Login</label>
                     </div>
                     <div class="campo">
                         <span class="material-symbols-outlined">key</span>
-                        <input type="password" name="senha" id="isenha" autocomplete="current-password" minlength="8">
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" minlength="8">
                         <label for="isenha">Senha:</label>
                     </div>
                     <input type="submit" value="Entrar">
                     <a href="esqueci.html">
-                        Esqueci a Senha <span class="material-symbols-outlined">mail</span>
+                        Esqueci a Senha <span class="material-symbols-outlined" id="icon">mail</span>
                     </a>
                 </form>
             </div>
