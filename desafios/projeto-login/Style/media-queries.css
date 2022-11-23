@@ -60,4 +60,11 @@
     form > input[type=submit], form > a{
         width: 50%;
     }
+
+}
+
+@media screen and (min-width: 1040px) {
+    div.campo > input{
+        transform: translateY(-12px);
+    }
 }
